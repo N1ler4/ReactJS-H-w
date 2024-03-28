@@ -1,0 +1,96 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 120px;
+}
+.about h4 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.about h4 span {
+  color: #165df5;
+  font-size: 16px;
+  font-weight: 500;
+}
+.about h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+}
+.about p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  width: 710px;
+  text-align: center;
+}
+.about-flex {
+  display: flex;
+  margin-top: 46px;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+.about-text-main h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 141%;
+  width: 565px;
+  margin-left: 20px;
+}
+.about-text-main p {
+  width: 418.776px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 165.401%;
+  margin-left: 20px;
+  text-align: start;
+
+}
+.about-card:hover{
+    border-left: 3px solid #165DF5;
+    transform: scale(1.025);
+}
+.about-card h3 {
+  color: #000;
+  font-size: 24.876px;
+  font-weight: 500;
+  width: 418.682px;
+}
+.about-card p {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 147.5%; 
+  width: 538.143px;
+}
+.about-card{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5px;
+  width: 540px;
+  border-left: 3px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.about-cards{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-card p{
+  text-align: start;
+}

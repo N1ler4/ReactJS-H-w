@@ -1,0 +1,36 @@
+header {
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+  }
+}
+
+.header-ul {
+  display: flex;
+  gap: 40px;
+}
+.header-li a {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; 
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo h1 {
+  font-size: 16px;
+}
+.logo h1 span {
+  color: #165df5;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
