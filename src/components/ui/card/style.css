@@ -28,3 +28,40 @@
   height: 64px;
   flex-shrink: 0;
 }
+.secondCard {
+  width: 282.389px;
+  height: 419px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secondCard img {
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 2px 5px 13px 0px rgba(0, 0, 0, 0.15);
+  width: 249.167px;
+  height: 170px;
+}
+.secondCard a {
+  color: #165df5;
+  font-size: 14px;
+  font-weight: 500;
+}
+.secondCard h3 {
+  width: 248px;
+  color: #000;
+  font-size: 18.662px;
+  font-weight: 500;
+}
+.secondCard p {
+  width: 248px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+}
+.secondCard a:last-child{
+  margin-left: 120px;
+}
